@@ -11,7 +11,7 @@ const dest = gulp.dest;
 
 // Definisikan sebuah task untuk memformat file-file kode
 function percantikKode() {
-    return src(".")
+    return src("./**/*")
            .pipe(prettier())
            .pipe(dest("."));
 }
