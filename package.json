@@ -2,11 +2,9 @@
   "name": "contoh-proyek-pelatihan-webdev2",
   "version": "0.0.1",
   "author": "Nama Kalian”,
-
   "scripts": {
     "prettify": "gulp"
   },
-  
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-prettier": "^3.0.0",
