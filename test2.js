@@ -1,1 +1,4 @@
-const a="hello";function b(c){return c;}
+const a = "hello";
+function b(c) {
+  return c;
+}
