@@ -3,7 +3,7 @@
 
 // Impor modul yang diperlukan
 const gulp     = require("gulp");
-const prettier = require("gulp-prettier);
+const prettier = require("gulp-prettier");
 
 // Kita assign ke variabel baru agar kode lebih terbaca
 const src  = gulp.src;
