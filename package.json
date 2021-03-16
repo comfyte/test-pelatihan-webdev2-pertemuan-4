@@ -4,7 +4,7 @@
   "author": "Nama Kalian”,
 
   "scripts": {
-    "prettify": "gulp”
+    "prettify": "gulp"
   },
   
   "devDependencies": {
