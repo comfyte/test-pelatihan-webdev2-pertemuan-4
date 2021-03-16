@@ -1,0 +1,27 @@
+name: Nama apapun terserah sesuka kalian
+
+on: push
+
+jobs:
+  prettify:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: a
+        uses: actions/checkout@v2
+        
+      - name: b
+        uses: actions/setup-node@v2.1.5
+        
+      - name: c
+        run: npm install
+        
+      - name: d
+        run: npm prettify
+        
+      - name: e
+        run: |
+          git config user.name "Nama Bot"
+          git config user.email "rafirizqy@outlook.com"
+          git commit -a -m "Automatic code format test"
+          git push
